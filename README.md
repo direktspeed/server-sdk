@@ -11,6 +11,7 @@ and they produce more performant code most time. We Use JavaScript where it real
 - Can use any Language that graalvm supports in addition
 - can be deployed as Single Binary or JIT Version
 - vertx IO Framework for Java IO
+- https://atomix.io/ clustering api's for distributed computing.
 
 ### Apache Ignite
 Ignite can be accessed with simple key-value APIs and, thus, act as a distributed key-value store (aka. data grid). In this scenario, you can think of Ignite as of a distributed partitioned hash map with every cluster node owning a portion of the overall data set. It's worth mentioning, that even if you see or use Ignite as a key-value store, you're not limited to the key-value operations and can always leverage from other available APIs such as SQL, collocated computations, machine learning, streaming.
