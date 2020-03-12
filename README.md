@@ -15,5 +15,19 @@ and they produce more performant code most time. We Use JavaScript where it real
 ### Apache Ignite
 Ignite can be accessed with simple key-value APIs and, thus, act as a distributed key-value store (aka. data grid). In this scenario, you can think of Ignite as of a distributed partitioned hash map with every cluster node owning a portion of the overall data set. It's worth mentioning, that even if you see or use Ignite as a key-value store, you're not limited to the key-value operations and can always leverage from other available APIs such as SQL, collocated computations, machine learning, streaming.
 
+- SQL
+- BINARYPROTOCOL
+- MEMCACHED Protocol
+- REDIS Protocol
+
 ### GraalVM
 A Polyglot Compiler written in Java that can produce JIT and AOT Versions of your server Application it can run 95% of all existing NPM Packages out of the box.
+
+
+## Usage Scenarios
+- Want to deploy a Apache Ignite Cluster and run some JS Code on it.
+- want to code and deploy a Distributed Web Application or Microservice
+- wants to replace nginx or other service mesh with a JavaScript Solution that Scales.
+- wants to replace SockerCLuster npm package.
+- wants to replace Couchbase
+- wants to replace kafka
